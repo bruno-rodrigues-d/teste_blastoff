@@ -1,0 +1,4 @@
+(a) Red
+
+Prevalecerá no elemento HTML a cor vermelha, pois ela especifica a classe
+do item.

@@ -1,0 +1,3 @@
+(c) !important
+
+Quando não há outra maneira é usado o !important para sobrescrever um estilo em CSS.

@@ -1,0 +1,38 @@
+<!-- Teste de Desenvolvimento Web
+Bruno Rodrigues Daniel
+
+Questão 10 -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste TooDoo</title>
+    <script>
+      function funcaoAlertaTrue() {
+        alert("Amo sorvete de chocolate");
+      }
+
+      function funcaoAlertaFalse() {
+        alert("Prefiro outros sabores");
+      }
+
+      function getVal() {
+        var sorveteDeChocolate = document.querySelector('input').value;
+
+        if (sorveteDeChocolate === 'chocolate') {
+          funcaoAlertaTrue();
+          } else {
+            funcaoAlertaFalse();
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+
+    <input type="text" placeholder="Entre com o sabor">
+    <input type="button" value="ok" onclick="getVal()">
+
+  </body>
+</html>

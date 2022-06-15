@@ -1,0 +1,16 @@
+.casa ul {
+  display: inline-block;
+}
+
+.casa ul li {
+  list-style-type: none;
+  padding-right: 14px;
+}
+
+.last {
+  text-decoration: none;
+}
+
+.normal {
+  text-decoration: underline;
+}
